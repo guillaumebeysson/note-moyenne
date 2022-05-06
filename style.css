@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: 'Water Brush', cursive;
+    font-size: 50px;
+    margin: 30px 0;
+}
+h2{
+    margin: 10px;
+}
+.carte{
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("https://assets-global.website-files.com/5fce901dab92e15349a36fb7/620d12a68c4eb84ebbafc449_bg-pricing-card.png"),repeating-linear-gradient(135deg,#5b53ff,#ff4136);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    /* border: solid 4px white; */
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.396);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#textConsigne{
+    margin: 30px 0;
+    text-align: start;
+}
+
+#addNote{
+    color: white;
+    width: 200px;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    font-size: large;
+    cursor: pointer;
+}
+#phraseMoyenne{
+    margin: 30px 0;
+}
+#noteListColor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.moyenneAffichee{
+    font-size: 40px;
+    color: rgb(231, 221, 221);
+    font-weight: bold;
+}
+.noteColor{
+    font-size: x-large;
+    margin: 5px;
+}
+.red{
+    color: rgb(167, 1, 1);
+    
+}
+.green{
+    color: rgb(10, 118, 10);
+    
+}
+@media (max-width: 500px) { 
+    .carte{
+        width: 90%;
+    }
+}
+
+    
