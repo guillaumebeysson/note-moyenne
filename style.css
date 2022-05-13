@@ -88,6 +88,24 @@ h2{
     text-decoration: none;
     border-radius: 20px;
 }
+#meilleurePireNote{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: xx-large;
+}
+#bad{
+    display: flex;
+    flex-direction: column;
+}
+#best{
+    display: flex;
+    flex-direction: column;
+}
+#medianeNotes{
+    padding: 20px;
+}
 @media (max-width: 500px) { 
     .carte{
         width: 90%;
